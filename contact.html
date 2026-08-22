@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Nodical Technologies</title>
+<meta name="description" content="Get in touch with Nodical Technologies to start a digital marketing, design, website, or app development project.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+.contact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start; }
+.contact-card{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); padding:36px; }
+.contact-row{ display:flex; gap:14px; padding:16px 0; border-top:1px solid var(--line); }
+.contact-row:first-child{ border-top:none; padding-top:0; }
+.contact-row .label{ font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-soft); font-family:var(--font-mono); margin-bottom:3px; }
+.contact-row .value{ font-size:15.5px; font-weight:600; }
+.form-group{ margin-bottom:18px; }
+.form-group label{ display:block; font-size:13px; font-weight:600; margin-bottom:7px; color:var(--ink-soft); }
+.form-group input, .form-group textarea, .form-group select{
+  width:100%; padding:13px 14px; border:1.5px solid var(--line); border-radius:10px;
+  font-family:var(--font-body); font-size:14.5px; background:#fff; color:var(--ink);
+}
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus{ outline:none; border-color:var(--magenta); }
+</style>
+</head>
+<body>
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="logo-mark"><img src="assets/logo-header.png" alt="Nodical Technologies"></a>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="brands.html">Brands</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-primary" style="padding:10px 22px; font-size:13.5px;">Start a Project</a>
+    <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero" style="padding:64px 0 20px;">
+  <div class="wrap">
+    <div class="eyebrow">Let's talk</div>
+    <h1 style="max-width:640px;">Let's build something worth putting our names on.</h1>
+    <p class="lead">Tell us what you're working on — we'll get back to you with a straight answer on how we'd approach it.</p>
+  </div>
+</section>
+
+<section style="padding-top:20px;">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="contact-card reveal">
+        <h3>Start a project</h3>
+        <p style="font-size:14px; margin-bottom:24px;">Fill this in and we'll follow up by email — no forms, no funnels, just a real reply.</p>
+        <form action="mailto:hello@nodicaltech.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label>Your name</label>
+            <input type="text" name="name" required>
+          </div>
+          <div class="form-group">
+            <label>Email address</label>
+            <input type="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label>What do you need help with?</label>
+            <select name="service">
+              <option>Digital Marketing</option>
+              <option>Graphic Design</option>
+              <option>Website Development</option>
+              <option>App Development</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tell us about it</label>
+            <textarea name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; border:none;">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-card reveal">
+        <h3>Get in touch directly</h3>
+        <p style="font-size:14px; margin-bottom:8px;">[Placeholder contact details — swap in your real ones]</p>
+        <div class="contact-row">
+          <div>
+            <div class="label">Email</div>
+            <div class="value">hello@nodicaltech.com</div>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div>
+            <div class="label">Phone</div>
+            <div class="value">+91 00000 00000</div>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div>
+            <div class="label">Studio</div>
+            <div class="value">Bengaluru, India</div>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div>
+            <div class="label">Our brand</div>
+            <div class="value"><a href="https://www.fabricnfine.com" target="_blank" rel="noopener noreferrer" style="color:var(--magenta);">FabricNFine ↗</a></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="assets/logo-header.png" alt="Nodical Technologies">
+        <p>A digital studio and brand group — building websites, apps, marketing, and design for growing businesses, and brands of our own.</p>
+      </div>
+      <div>
+        <h5>Studio</h5>
+        <ul>
+          <li><a href="services.html">Digital Marketing</a></li>
+          <li><a href="services.html#graphic-design">Graphic Design</a></li>
+          <li><a href="services.html#website-development">Website Development</a></li>
+          <li><a href="services.html#app-development">App Development</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Brands</h5>
+        <ul>
+          <li><a href="https://www.fabricnfine.com" target="_blank" rel="noopener noreferrer">FabricNFine ↗</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Nodical Technologies Private Limited. All rights reserved.</span>
+      <span>Empowering digital excellence, globally.</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
