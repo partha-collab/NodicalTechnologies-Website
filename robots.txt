@@ -1,0 +1,12 @@
+# Nodical Technologies - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nodicaltech.com/sitemap.xml
+
+# Host
+Host: https://nodicaltech.com
+
+# Crawl-delay (optional, be respectful)
+Crawl-delay: 10
