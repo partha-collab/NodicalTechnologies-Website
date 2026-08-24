@@ -226,9 +226,10 @@ section{ padding:100px 0; }
 .brand-spotlight-media img{ width:100%; height:100%; object-fit:cover; }
 .brand-spotlight-placeholder{
   position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
-  gap:14px; background: var(--gradient-brand-soft);
-  background-image: radial-gradient(circle at 25% 25%, rgba(196,24,142,0.18), transparent 55%),
-                     radial-gradient(circle at 75% 75%, rgba(59,42,156,0.20), transparent 55%);
+  gap:14px; 
+  background: var(--gradient-brand);
+  background-image: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.15), transparent 50%),
+                     radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1), transparent 50%);
 }
 .brand-spotlight-placeholder .mark{ width:220px; height:auto; opacity:1; }
 .brand-spotlight-placeholder span{ font-family:var(--font-mono); font-size:12.5px; color:var(--ink-soft); letter-spacing:.05em; }
