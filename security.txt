@@ -1,0 +1,7 @@
+# Security Contact Information for Nodical Technologies
+Contact: mailto:security@nodicaltech.com
+Contact: https://nodicaltech.com/contact.html
+Preferred-Languages: en
+Policy: https://nodicaltech.com/security-policy.html
+Acknowledgments: https://nodicaltech.com/hall-of-fame.html
+Expires: 2026-12-31T23:59:59.000Z

@@ -3,6 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Security Headers (client-side fallback; real headers should be set on server) -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()">
+<meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+<meta http-equiv="Cross-Origin-Resource-Policy" content="same-origin">
+
 <title>Nodical Technologies — Digital Studio & Brand Group | Marketing, Design, Development</title>
 <meta name="description" content="Nodical Technologies is a full-service digital studio offering digital marketing, graphic design, website development, and app development. We build connected digital experiences — and brands of our own like FabricNFine.">
 <meta name="keywords" content="digital marketing, graphic design, website development, app development, digital studio, SEO, branding, e-commerce, Shopify, React Native">
