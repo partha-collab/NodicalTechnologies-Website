@@ -227,8 +227,8 @@ section{ padding:100px 0; }
 .brand-spotlight-placeholder{
   position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
   gap:14px; 
-  background: var(--indigo-deep);
-  background: var(--gradient-brand);
+  background: #180F3E; /* fallback */
+  background: linear-gradient(135deg, #C4188E 0%, #3B2A9C 100%); /* explicit gradient */
   background-image: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.15), transparent 50%),
                      radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1), transparent 50%);
   z-index: 1;
@@ -237,7 +237,6 @@ section{ padding:100px 0; }
   width:220px; height:auto; opacity:1;
   mix-blend-mode: multiply; /* helps if logo has white bg */
 }
-.brand-spotlight-placeholder .mark{ width:220px; height:auto; opacity:1; }
 .brand-spotlight-placeholder span{ font-family:var(--font-mono); font-size:12.5px; color:var(--ink-soft); letter-spacing:.05em; }
 .brand-spotlight-copy{ background:#fff; padding:52px; display:flex; flex-direction:column; justify-content:center; }
 
