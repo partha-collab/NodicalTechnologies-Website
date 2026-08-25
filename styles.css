@@ -222,16 +222,16 @@ section{ padding:100px 0; }
   display:grid; grid-template-columns:1fr 1fr; gap:0;
   border-radius: var(--radius); overflow:hidden; box-shadow: var(--shadow-lg);
 }
-.brand-spotlight-media{ background: var(--paper-dim); position:relative; min-height:380px; }
+.brand-spotlight-media{ background: var(--paper-dim); position:relative; min-height:380px; overflow:hidden; }
 .brand-spotlight-media img{ width:100%; height:100%; object-fit:cover; }
 .brand-spotlight-placeholder{
   position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
   gap:14px; 
-  background: #180F3E; /* fallback */
-  background: linear-gradient(135deg, #C4188E 0%, #3B2A9C 100%); /* explicit gradient */
+  background: #180F3E !important; /* fallback */
+  background: linear-gradient(135deg, #C4188E 0%, #3B2A9C 100%) !important; /* explicit gradient */
   background-image: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.15), transparent 50%),
                      radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1), transparent 50%);
-  z-index: 1;
+  z-index: 10;
 }
 .brand-spotlight-placeholder .mark{
   width:220px; height:auto; opacity:1;
