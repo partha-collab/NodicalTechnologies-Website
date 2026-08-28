@@ -36,4 +36,32 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://nodicaltech.com/contact.html" />
   </url>
+  <url>
+    <loc>https://nodicaltech.com/privacy-policy.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nodicaltech.com/privacy-policy.html" />
+  </url>
+  <url>
+    <loc>https://nodicaltech.com/terms-and-conditions.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nodicaltech.com/terms-and-conditions.html" />
+  </url>
+  <url>
+    <loc>https://nodicaltech.com/payment-policy.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nodicaltech.com/payment-policy.html" />
+  </url>
+  <url>
+    <loc>https://nodicaltech.com/grievance-policy.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nodicaltech.com/grievance-policy.html" />
+  </url>
 </urlset>

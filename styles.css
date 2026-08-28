@@ -151,7 +151,7 @@ nav.links a.active{ color: var(--magenta); }
 
 /* --- Footer --- */
 footer{ background: var(--indigo-deep); color: rgba(255,255,255,0.72); padding:72px 0 28px; }
-.foot-grid{ display:grid; grid-template-columns:1.4fr repeat(3,1fr); gap:40px; margin-bottom:56px; }
+.foot-grid{ display:grid; grid-template-columns:1.2fr repeat(4,0.9fr); gap:32px; margin-bottom:56px; }
 .foot-brand img{ height:38px; margin-bottom:16px; filter:brightness(0) invert(1); }
 .foot-brand p{ color:rgba(255,255,255,0.5); font-size:13.5px; max-width:260px; }
 footer h5{
@@ -251,7 +251,6 @@ section{ padding:100px 0; }
 }
 .brand-spotlight-placeholder .mark{
   width:220px; height:auto; opacity:1;
-  mix-blend-mode: multiply; /* helps if logo has white bg */
 }
 .brand-spotlight-placeholder span{ font-family:var(--font-mono); font-size:12.5px; color:var(--ink-soft); letter-spacing:.05em; }
 .brand-spotlight-copy{ background:#fff; padding:52px; display:flex; flex-direction:column; justify-content:center; }
@@ -518,7 +517,18 @@ section{ padding:96px 0; }
 }
 @keyframes spin{ to{ transform:rotate(360deg); } }
 
-/* --- Responsive --- */
+/* --- Legal / policy pages --- */
+.legal-body{ max-width:760px; }
+.legal-body h2{ font-size:20px; margin:36px 0 12px; }
+.legal-body h2:first-child{ margin-top:0; }
+.legal-body p, .legal-body li{ color:var(--ink-soft); font-size:14.5px; line-height:1.75; }
+.legal-body ul{ margin:10px 0 10px 20px; }
+.legal-updated{ color:var(--ink-soft); font-size:13px; margin-bottom:8px; font-family:var(--font-mono); }
+.legal-flag{
+  background: var(--paper-dim); border:1px solid var(--line); border-radius:var(--radius-sm);
+  padding:14px 18px; font-size:13.5px; color:var(--ink-soft); margin-bottom:28px;
+}
+
 @media (max-width: 900px){
   .hero-grid{ grid-template-columns:1fr; }
   .foot-grid{ grid-template-columns:1fr 1fr; }
