@@ -3,10 +3,10 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://nodicaltech.com/sitemap.xml
+Sitemap: https://nodicaltechnologies.com/sitemap.xml
 
 # Host
-Host: https://nodicaltech.com
+Host: https://nodicaltechnologies.com
 
 # Crawl-delay (optional, be respectful)
 Crawl-delay: 10
